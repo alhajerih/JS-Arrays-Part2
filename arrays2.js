@@ -47,8 +47,9 @@ function isArrayLengthEven(numbers) {
  */
 function addLailaToArray(instructors) {
     // Your code here
-    instructors.push("Laila");
-    return instructors
+    const newInstructors =instructors.slice(0);
+    newInstructors.push("Laila");
+    return newInstructors;
     
   }
 
