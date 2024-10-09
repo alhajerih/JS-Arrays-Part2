@@ -66,7 +66,7 @@ function addLailaToArray(instructors) {
  */
 function eliminateTeam(teams) {
     // Your code here
-    teams.pop();
+    teams.splice(2, 1);
     return teams;
   }
   
